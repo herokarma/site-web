@@ -1,0 +1,271 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* GLOBAL STYLES */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+  }
+
+  .logo {
+    float: left;
+    width: 50px;
+    height: 55px;
+    margin-right: 20px;
+  }
+  
+
+  
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #1d1c1c;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+   /*navbar */
+  nav {
+    float: right;
+    margin-top: 20px;
+  }
+
+
+  
+  nav ul {
+    list-style: none;
+  }
+
+  /*espace texte navbar */
+
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+   /*police navbar */
+   
+  nav a {
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* BANNER */
+  #banner {
+    background-image: url("https://zupimages.net/up/23/14/mxpc.jpg");
+    padding: 100px 0;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+  }
+  /*Nous rejoindre*/
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #1d1c1c;
+  }
+
+  
+  
+  /* explication */
+  #explication{
+    background-color: #1d1c1c;
+    padding: 100px 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin-bottom: 50px;
+  }
+  
+  li {
+    margin-bottom: 50px;
+  }
+  
+  img {
+    display: block;
+    margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+
+  /* réseaux*/
+  #reseau {
+    background-color: #1d1c1c;
+    padding: 100px 0;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  
+  li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  /* tel */
+
+
+
+  /* make page take up entire screen */
+html, body {
+    height: 100%;
+    }
+    
+    /* make container take up entire screen */
+    .container {
+    height: 100%;
+    }
+    
+    /* adjust logo size for mobile */
+    @media only screen and (max-width: 600px) {
+    .logo {
+    width: 30px;
+    height: 33px;
+    margin-right: 10px;
+    }
+    }
+    
+    /* adjust navbar for mobile */
+    @media only screen and (max-width: 600px) {
+    nav {
+    float: none;
+    text-align: center;
+    }
+    
+    nav li {
+    display: block;
+    margin: 10px 0;
+    }
+    }
+    
+    /* adjust banner for mobile */
+    @media only screen and (max-width: 600px) {
+    #banner {
+    background-image: url("https://zupimages.net/up/23/14/mxpc.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    }
+    
+    h2 {
+    font-size: 28px;
+    }
+    
+    .button {
+    font-size: 18px;
+    padding: 8px 16px;
+    }
+    }
+    
+    /* adjust explication for mobile */
+    @media only screen and (max-width: 600px) {
+    #explication {
+    padding: 50px 0;
+    }
+    
+    h3 {
+    font-size: 22px;
+    }
+    
+    li {
+    margin-bottom: 30px;
+    }
+    }
+    
+    /* adjust reseau for mobile */
+    @media only screen and (max-width: 600px) {
+    #reseau {
+    padding: 50px 0;
+    }
+    
+    li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    
+    form {
+    margin-top: 30px;
+    }
+    
+    p {
+    font-size: 14px;
+    }
+    }
+  
+ 
+
+  
