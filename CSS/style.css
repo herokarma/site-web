@@ -89,8 +89,8 @@
   
   /* BANNER */
   #banner {
-    background-image: url("https://zupimages.net/up/23/14/mxpc.jpg");
-    padding: 100px 0;
+    background-image: url("https://zupimages.net/up/23/14/rcsz.png");
+    padding: 200px 0;
   }
   
   h2 {
@@ -121,6 +121,10 @@
   /* explication */
   #explication{
     background-color: #1d1c1c;
+    padding: 100px 0;
+  }
+  #explication1{
+    background-color: #72630c;
     padding: 100px 0;
   }
   
@@ -168,26 +172,24 @@
   form {
     margin-top: 50px;
   }
-  
+  /* texte*/
   p {
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
+    
   }
 
-  /* tel */
-
-
-
-  /* make page take up entire screen */
+  /* faire en sorte que la page occupe tout l'écran */
 html, body {
     height: 100%;
     }
     
-    /* make container take up entire screen */
+    /* faire en sorte que le conteneur occupe tout l'écran */
     .container {
     height: 100%;
     }
+    /* Telephone */
     
     /* adjust logo size for mobile */
     @media only screen and (max-width: 600px) {
